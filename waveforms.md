@@ -10,7 +10,7 @@ analysis of the 6T SRAM cell in Cadence Virtuoso.
 ```{=html}
 <!-- Add the first waveform image here -->
 ```
-![Write 0 and Power Response](images/.jpg)
+![Write 0 and Power Response](images/IMG1.jpg)
 
 The transient response verifies the **Write '0' operation**. With **BL =
 0 V** and **BLB = 1.8 V**, the storage nodes settle to **Q = 0** and
@@ -26,7 +26,7 @@ the change in power near the write event.
 ```{=html}
 <!-- Add the DC analysis waveform here -->
 ```
-![DC Analysis](images/dc_analysis.jpg)
+![DC Analysis](images/IMG2.jpg)
 
 The DC analysis studies the static response of the SRAM cell as the
 swept DC voltage varies from **0 V to 1.8 V**. The variation of **Q and
@@ -41,7 +41,7 @@ This analysis helps evaluate the DC characteristics of the SRAM cell.
 ```{=html}
 <!-- Add the Write 0 waveform here -->
 ```
-![Write 0 Waveform](images/write0_waveform.jpg)
+![Write 0 Waveform](images/IMG3.jpg)
 
 For the **Write '0' operation**, **BL is set to 0 V** and **BLB to 1.8
 V**. The SRAM storage nodes settle to **Q = 0** and **QB = 1** when
@@ -57,7 +57,7 @@ The retained complementary state confirms successful storage of logic
 ```{=html}
 <!-- Add the Write 1 waveform here -->
 ```
-![Write 1 Waveform](images/write1_waveform.jpg)
+![Write 1 Waveform](images/IMG4.jpg)
 
 For the **Write '1' operation**, **BL is set to 1.8 V** and **BLB to 0
 V**. The storage nodes settle to **Q = 1** and **QB = 0** during the
@@ -66,6 +66,32 @@ write operation.
 The complementary output state confirms successful storage of logic `1`.
 
 ------------------------------------------------------------------------
+## DC Sweep Waveform
+
+```{=html}
+<!-- Upload the waveform to the images folder and update the filename if required -->
+```
+![DC Sweep Analysis](images/IMG5.jpg)
+
+A **DC sweep from 0 V to 1.8 V** was applied to the bit-line input to
+study the static response of the SRAM cell. The **Q storage node
+gradually increases**, while **QB remains close to the high logic
+level** with a small voltage variation.
+
+The waveform demonstrates the influence of the swept bit-line voltage on
+the internal SRAM storage nodes and helps analyze the cell's **static
+voltage behavior and stability**.
+
+------------------------------------------------------------------------
+
+## Observation
+
+-   **BL** is swept from 0 V to 1.8 V.
+-   **BLB** remains at a constant high voltage.
+-   **Q** responds to the changing bit-line voltage.
+-   **QB** remains near the high logic state.
+-   The analysis provides insight into the SRAM cell's DC
+    characteristics.
 
 ## Simulation Summary
 
