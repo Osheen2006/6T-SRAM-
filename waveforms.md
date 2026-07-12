@@ -71,7 +71,7 @@ The complementary output state confirms successful storage of logic `1`.
 ```{=html}
 <!-- Upload the waveform to the images folder and update the filename if required -->
 ```
-![DC Sweep Analysis](images/IMG5.jpg)
+![DC Sweep Analysis](images/waveform_DC_AnalysisBL.bmp)
 
 A **DC sweep from 0 V to 1.8 V** was applied to the bit-line input to
 study the static response of the SRAM cell. The **Q storage node
