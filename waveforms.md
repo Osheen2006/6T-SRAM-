@@ -7,9 +7,6 @@ analysis of the 6T SRAM cell in Cadence Virtuoso.
 
 ## 1. Write '0' Operation and Power Response
 
-```{=html}
-
-```
 ![Write 0 and Power Response](images/IMG1.jpg)
 
 The transient response verifies the **Write '0' operation**. With **BL =
@@ -23,9 +20,6 @@ the change in power near the write event.
 
 ## 2. DC Analysis
 
-```{=html}
-
-```
 ![DC Analysis](images/IMG2.jpg)
 
 The DC analysis studies the static response of the SRAM cell as the
@@ -38,9 +32,7 @@ This analysis helps evaluate the DC characteristics of the SRAM cell.
 
 ## 3. Write '0' Transient Analysis
 
-```{=html}
 
-```
 ![Write 0 Waveform](images/IMG3.jpg)
 
 For the **Write '0' operation**, **BL is set to 0 V** and **BLB to 1.8
@@ -54,9 +46,7 @@ The retained complementary state confirms successful storage of logic
 
 ## 4. Write '1' Transient Analysis
 
-```{=html}
 
-```
 ![Write 1 Waveform](images/IMG4.jpg)
 
 For the **Write '1' operation**, **BL is set to 1.8 V** and **BLB to 0
@@ -68,9 +58,7 @@ The complementary output state confirms successful storage of logic `1`.
 ------------------------------------------------------------------------
 ## DC Sweep Waveform
 
-```{=html}
-<!-- Upload the waveform to the images folder and update the filename if required -->
-```
+
 ![DC Sweep Analysis](images/waveform_DC_AnalysisBL.bmp)
 
 A **DC sweep from 0 V to 1.8 V** was applied to the bit-line input to
